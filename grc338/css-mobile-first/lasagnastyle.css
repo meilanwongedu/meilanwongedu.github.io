@@ -8,30 +8,30 @@ img {
 
 h1 {
 /*johnsonville*/
-	background-color: orange;
-	color: white; /* Same as body background. */
+	background-color: #FFA500;
+	color: #FFFFFF; /* Same as body background. */
     font-family: Sutro, serif;
     font-weight: 700; 
-	font-size: 25pt;
+	font-size: 1.87em;
 	padding: 2rem 1rem 0rem; /* You want three values. */
 }
 
 h2 {
 /*subtitle*/
-	background-color: orange;
+	background-color: #FFA500;
 	color: #F9DEBF; /* Same as body background. */
     font-family: Sutro, serif;
     font-weight: 300; 
-	font-size: 19pt;
+	font-size: 1.4em;
 	padding: 0.5rem 1rem 1.5rem; /* You want three values. */
 }
 
 h3 {
 /*inner titles*/
-	color: orange; /* Same as body background. */
+	color: #FFA500; /* Same as body background. */
     font-family: Sutro, serif;
     font-weight: 300; 
-	font-size: 15pt;
+	font-size: 1.3em;
     margin: 0rem 0.2rem 0rem;
 	padding: 0.5rem 1rem 0.5rem; /* You want three values. */
     text-transform: uppercase;
@@ -59,10 +59,11 @@ li {
 }
 
 footer {
-    background-color: orange;
-	color: white;
+    background-color: #FFA500;
+	color: #FFFFFF;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
+    
 	padding: 1rem 1rem 1rem;
 }
 
