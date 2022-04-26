@@ -1,0 +1,99 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+div.container{
+    max-width: 70em;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 2fr 1fr;  
+}
+
+h1 {
+/*johnsonville*/
+	background-color: #FFA500;
+	color: #FFFFFF; /* Same as body background. */
+    font-family: Sutro, serif;
+    font-weight: 700; 
+	font-size: 1.87em;
+	padding: 2rem 1rem 0rem; /* You want three values. */
+}
+
+h2 {
+/*subtitle*/
+	background-color: #FFA500;
+	color: #F9DEBF; /* Same as body background. */
+    font-family: Sutro, serif;
+    font-weight: 300; 
+	font-size: 1.4em;
+	padding: 0.5rem 1rem 1.5rem; /* You want three values. */
+    grid-column: 2/3;
+}
+
+section.ingredients {
+    margin: 3rem 0rem 0rem;
+    padding: 0.5rem 1rem 0rem;
+}
+
+section.directions{
+    margin: 3rem 0rem 0rem;
+    padding: 0.5rem 1rem 0rem;
+}
+
+h3 {
+/*inner titles*/
+    border-top: solid 0.25rem;
+	color: #FFA500; /* Same as body background. */
+    font-family: Sutro, serif;
+    font-weight: 300; 
+	font-size: 1.3em;
+    margin: 0rem 1rem 0rem;
+
+	padding: 1rem 0rem 0.5rem; /* You want three values. */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    margin: 0rem 0.2rem 0rem;
+    padding: 0.75rem 1rem 1rem;
+    
+}
+
+ul, ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;
+    margin: 0rem 0.2rem 1rem;
+    padding: 0.5rem 1rem 1rem;
+}
+
+li {
+    display: list-item;
+    margin: 0rem 0rem 1rem;
+}
+
+footer {
+    background-color: #FFA500;
+	color: #FFFFFF;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;     
+	padding: 1rem 1rem 1rem;
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
